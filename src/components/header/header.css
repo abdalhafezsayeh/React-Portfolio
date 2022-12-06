@@ -1,0 +1,38 @@
+header {
+    height: 100vh;
+    padding-top: 3rem;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* background-image: url(../../assets/—Pngtree—dot\ background\ texture_6070825.png); */
+}
+
+.h_container { 
+    text-align: center;
+    height: 100%;
+    position: relative;
+
+}
+
+
+
+/* ========================== CTA ======================= */
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+
+/* ========================== SOCIAL ======================= */
+.h_social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}

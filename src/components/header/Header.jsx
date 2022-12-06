@@ -1,13 +1,12 @@
 import React from "react";
-// import UseAnimations  
-import UseAnimations from 'react-useanimations';
-import github from 'react-useanimations/lib/github';
 // Style
 import "./header.css";
 // Component
 import CTA from "./CTA";
+
 // Image
 import me from '../../assets/me1.png'
+import Social from "./Social";
 
 
 
@@ -22,7 +21,7 @@ function Header() {
 
         {/* Buttons */}
         <CTA />
-
+        <Social />
         {/* Image  */}
         <div className="me">
           <img src={me} alt="me" />
