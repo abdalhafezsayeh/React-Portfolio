@@ -15,33 +15,36 @@ function Social() {
       {/* linkedIn */}
       <a href="http://linkedin.com" target="_blank">
         <UseAnimations
-          strokeColor="red"
+          strokeColor="#4db5ff"
           animation={linkedin}
-          size={50}
+          size={30}
           style={{ cursor: "pointer", padding: 100, color: "#999" }}
         />
       </a>
       {/* github */}
       <a href="http://githup.com" target="_blank">
         <UseAnimations
+        strokeColor="#4db5ff"
           animation={github}
-          size={50}
+          size={40}
           style={{ cursor: "pointer", padding: 100 }}
         />
       </a>
       {/* facebook */}
       <a href="http://facebook.com" target="_blank">
         <UseAnimations
+        strokeColor="#4db5ff"
           animation={facebook}
-          size={50}
+          size={40}
           style={{ cursor: "pointer", padding: 100 }}
         />
       </a>
       {/* facebook */}
       <a href="http://codepen.com" target="_blank">
         <UseAnimations
+        strokeColor="#4db5ff"
           animation={codepen}
-          size={50}
+          size={40}
           style={{ cursor: "pointer", padding: 100 }}
         />
       </a>

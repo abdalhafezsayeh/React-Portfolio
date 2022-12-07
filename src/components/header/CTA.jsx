@@ -10,11 +10,11 @@ function CTA() {
   return (
     <div className="cta">
       <a href={CV} download className="btn" style={{display:'flex', alignItems:'center'}}>
-        <span>
+        <span style={{marginRight:'8px'}}>
           <UseAnimations
-            strokeColor=""
+            strokeColor="#4db5ff"
             animation={download}
-            size={30}
+            size={25}
             style={{ cursor: "pointer", padding: 100, color: "#999" }}
           />
         </span>

@@ -28,9 +28,9 @@ function Header() {
         </div>
 
         {/* Text Down */}
-        <a href="contact" className="h_scroll">
+        {/* <a href="contact" className="h_scroll">
           Scroll Down
-        </a>
+        </a> */}
         
       </div>
     </header>
