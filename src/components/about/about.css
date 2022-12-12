@@ -1,0 +1,43 @@
+
+
+
+.about_me {
+    width:70%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+}
+
+.about_image {
+    border-radius: 2rem ;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+.about_image:hover {
+    transform: rotate(0);
+}
+
+.about_text_box {
+    background:  linear-gradient(45deg, transparent,  var(--color-bg-variant), transparent );
+    /* border: 1px solid transparent; */
+    padding: 25px 10px;
+    border-radius: 1rem;
+}
+
+.about_icon {
+    color: var(--color-primary);
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.about_dis {
+    text-align: left;
+    margin-top: 30px;
+    border-top:1px solid var(--color-bg-variant);
+    padding-top: 10px;
+}
+
+.about_bt {
+    text-align: none;
+}
