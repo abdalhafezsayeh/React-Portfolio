@@ -14,7 +14,7 @@ function Header() {
 
   return (
     <header>
-      <div className="container h_container">
+      <div className="h_container">
         <h5>Hello I'm</h5>
         <h1>Abdalhafez Sayeh</h1>
         <h5 className="text-light">Front-End Developer</h5>
