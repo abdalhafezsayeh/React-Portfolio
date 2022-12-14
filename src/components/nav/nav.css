@@ -33,3 +33,13 @@ nav a.active {
     background: var(--color-bg);
     color: var(--color-white);
 }
+
+/*********************** // media queries // ******************/ 
+@media (max-width: 992px) { 
+
+    nav {
+        bottom: 80%;
+       margin-bottom: 40px;
+    }
+
+}

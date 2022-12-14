@@ -13,20 +13,20 @@ import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 function About() {
   return (
     <>
-      <section className=" mt-5">
+      <section className="about">
         <p className="text-center">Get To Know</p>
-        <h3 className="text-center">About Me</h3>
+        <h3 className="text-center ">About Me</h3>
 
         <div className="mt-5">
           <Row>
-            <Col>
+            <Col md={12} lg={5}>
               <div className="about_me">
                 <div className="about_image">
                   <img src={ME} alt="About Me Image" />
                 </div>
               </div>
             </Col>
-            <Col>
+            <Col md={12} lg={7}>
               <Row>
                 <Col sm>
                   <div className="about_text_box text-center">
