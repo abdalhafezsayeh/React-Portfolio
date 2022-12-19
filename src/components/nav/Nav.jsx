@@ -16,8 +16,9 @@ function Nav() {
   return (
     <nav>
     <NavLink to='/' > <AiOutlineHome/></NavLink>
-      <NavLink to='about'><AiOutlineUser/></NavLink>
-      <a href="#"><BsCodeSlash/></a>
+    <NavLink to='about'><AiOutlineUser/></NavLink>
+    <NavLink to='experience'><BsCodeSlash/></NavLink>
+
       <a href="#"><AiOutlineCode/></a>
 
       <a href="#"><AiOutlineUser/></a>

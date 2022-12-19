@@ -70,6 +70,7 @@ a:hover {
 
 .btn {
     width: max-content !important;
+    background: linear-gradient(10deg, var(--color-bg-variant), var(--color-bg), var(--color-bg),var(--color-bg-variant) );
     color: var(--color-primary) !important;
     padding: 0.75rem 1.2rem !important;
     border-radius: 0.4rem !important;
@@ -96,6 +97,9 @@ img {
     object-fit: cover;
 }
 
+ul {
+    list-style: none;
+}
 
 /************ Start Media  *******************/
 

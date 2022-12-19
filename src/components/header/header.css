@@ -5,14 +5,14 @@ header {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    /* background-image: url(../../assets/—Pngtree—dot\ background\ texture_6070825.png); */
+    /* background: linear-gradient(45deg, transparent, var(--color-bg), transparent, var(--color-bg)); */
+    background-image: url(../../assets/—Pngtree—dot\ background\ texture_6070825.png)
 }
 
 .h_container { 
     text-align: center;
     height: 100%;
-    position: relative;
-
+    position: relative
 }
 
 
@@ -22,7 +22,7 @@ header {
     margin-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
-    justify-content: center;
+    justify-content: center
 }
 
 
@@ -34,14 +34,14 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 3rem;
+    bottom: 3rem
 }
 
 .h_social::after {
     content: "";
     width: 1px;
     height: 2rem;
-    background: var(--color-primary);
+    background: var(--color-primary)
 }
 
 /* ========================== ME ======================= */
@@ -54,18 +54,17 @@ header {
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 2rem 5rem 5rem 5rem;
+    padding: 2rem 5rem 5rem 5rem
 }
 
 
-/************ Start Media  *******************/
+/******************* // Media Q //  ****************************/
 
 /* ( Larg Screen  ) */
-@media screen and (max-width: 1024px) {
+ @media (max-width: 992px) { 
     header {
-        height: 68vh;
+        margin-top: 60px;
     }
-
  }
 
 

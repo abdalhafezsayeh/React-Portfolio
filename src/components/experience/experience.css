@@ -1,0 +1,59 @@
+
+.exp {
+    margin-top: 3rem;
+}
+.exp>p {
+    font-size: 13px;
+    margin: 0;
+    color: #EEE;
+}
+.exp h3 {
+    color: var(--color-primary);
+}
+
+.layOut_ex {
+    margin-top: 50px;
+}
+.box_track {
+    background: linear-gradient(45deg,  var(--color-bg-variant), transparent, var(--color-bg-variant));
+    padding: 40px;
+    border-radius: 1rem;
+
+}
+.title_box_ex {
+    padding-bottom: 10px;
+    position: relative
+}
+.title_box_ex::before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(45deg, var(--color-bg), transparent, var(--color-bg));
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    
+}
+.title_box_ex::after {
+    content: '';
+    position: absolute;
+    background: linear-gradient(45deg, var(--color-bg), transparent, var(--color-bg));
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    right: 0;
+    top: 0
+}
+.border_line_right {
+    border-right: 3px solid var(--color-bg);
+}
+
+.icon_ex {
+    font-size: 25px;
+    padding-right: 10px
+}
+.des_ex {
+    font-size: 13px;
+    color: #EEE;
+}

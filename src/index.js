@@ -5,6 +5,7 @@ import About from "./components/about/About";
 import ErorrPage from "./components/ErorrPage";
 import Header from "./components/header/Header";
 import RootLayOut from "./components/RootLayOut";
+import Experience from "./components/experience/Experience";
 
 // Import Styles And Boostrap 
 import "./index.css";
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Header /> },
       { path: "about", element: <About /> },
+      { path: "experience", element: <Experience /> },
     ],
   },
 ]);
