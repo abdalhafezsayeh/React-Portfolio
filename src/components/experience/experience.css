@@ -18,35 +18,40 @@
     background: linear-gradient(45deg,  var(--color-bg-variant), transparent, var(--color-bg-variant));
     padding: 40px;
     border-radius: 1rem;
+    margin-bottom: 30px;
 
 }
 .title_box_ex {
     padding-bottom: 10px;
-    position: relative
+    position: relative;
+    border-bottom: 1px solid var(--color-bg-variant);
 }
 .title_box_ex::before {
-    content: '';
+    content: '<>';
     position: absolute;
-    background: linear-gradient(45deg, var(--color-bg), transparent, var(--color-bg));
+    /* background: linear-gradient(45deg, var(--color-bg), transparent,transparent, var(--color-bg)); */
+    color: var(--color-bg);
     width: 40px;
     height: 40px;
-    border-radius: 50%;
+    border-radius: 10px;
     left: 0;
     top: 0;
     
 }
 .title_box_ex::after {
-    content: '';
+    content: '</>';
     position: absolute;
-    background: linear-gradient(45deg, var(--color-bg), transparent, var(--color-bg));
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    /* background: linear-gradient(45deg, var(--color-bg), transparent,transparent,transparent, var(--color-bg)); */
+    color: var(--color-bg);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
     right: 0;
-    top: 0
+    top: 0;
+    
 }
 .border_line_right {
-    border-right: 3px solid var(--color-bg);
+    border-right: 1px solid var(--color-bg-variant);
 }
 
 .icon_ex {
@@ -54,6 +59,36 @@
     padding-right: 10px
 }
 .des_ex {
-    font-size: 13px;
+    font-size: 10px;
     color: #EEE;
+}
+
+/***********************************************************************/
+/******************** // Media Queries // ********************************/
+@media (max-width:992px) {
+    .exp {
+        margin-top: 7rem;
+    }
+/* 
+    .about_me {
+        margin-bottom: 70px;
+    }
+
+    .about_text_box {
+        margin: 10px;
+        padding: 15px 30px;
+
+    } */
+
+}
+
+@media (max-width:385px) {
+
+   .border_line_right {
+    border: none
+}
+.ul_mobil {
+    text-align: center;
+    padding: 0;
+}
 }

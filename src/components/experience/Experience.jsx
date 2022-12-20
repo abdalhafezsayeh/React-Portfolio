@@ -16,12 +16,12 @@ function Experience() {
         <Row>
 
           {/* Start Skills Front-End  */}
-          <Col>
+          <Col md={12} lg={6}>
             <div className="box_track">
               <h4 className="text-center title_box_ex">Frontend Development</h4>
               <Row>
                 <Col>
-                  <ul className="border_line_right">
+                  <ul className="border_line_right ul_mobil">
                     <li>
                       <span className="icon_ex">
                         <AiFillHtml5 />
@@ -33,13 +33,13 @@ function Experience() {
                 </Col>
 
                 <Col>
-                  <ul>
+                  <ul className="ul_mobil">
                     <li>
                       <span className="icon_ex">
                         <AiFillHtml5 />
                       </span>
                       <span className="lang_ex">HTML</span>
-                      <p>Experienced</p>
+                      <p className="des_ex">Experienced</p>
                     </li>
                   </ul>
                 </Col>
@@ -51,12 +51,12 @@ function Experience() {
 
 
           {/* Start Skills Back-End */}
-          <Col>
+          <Col md={12} lg={6}>
             <div className="box_track">
               <h4 className="text-center title_box_ex">Backend Development</h4>
               <Row>
                 <Col>
-                  <ul className="border_line_right">
+                  <ul className="border_line_right ul_mobil">
                     <li>
                       <span className="icon_ex">
                         <AiFillHtml5 />
@@ -68,13 +68,13 @@ function Experience() {
                 </Col>
 
                 <Col>
-                  <ul>
+                  <ul className="ul_mobil">
                     <li>
                       <span className="icon_ex">
                         <AiFillHtml5 />
                       </span>
                       <span className="lang_ex">HTML</span>
-                      <p>Experienced</p>
+                      <p className="des_ex">Experienced</p>
                     </li>
                   </ul>
                 </Col>
