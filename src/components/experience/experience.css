@@ -19,8 +19,15 @@
     padding: 40px;
     border-radius: 1rem;
     margin-bottom: 30px;
-
+    opacity: .7;
+        transition: all .5s;
 }
+
+.box_track:hover {
+    background: linear-gradient(45deg, transparent,  var(--color-bg-variant), transparent);
+    opacity: .9;
+}
+
 .title_box_ex {
     padding-bottom: 10px;
     position: relative;
@@ -55,12 +62,12 @@
 }
 
 .icon_ex {
-    font-size: 25px;
+    font-size: 20px;
     padding-right: 10px
 }
 .des_ex {
     font-size: 10px;
-    color: #EEE;
+    color: #999;
 }
 
 /***********************************************************************/
