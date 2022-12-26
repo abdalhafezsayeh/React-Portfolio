@@ -3,7 +3,7 @@ import {AiOutlineHome} from 'react-icons/ai'
 import {AiOutlineUser} from 'react-icons/ai'
 import {BsCodeSlash} from 'react-icons/bs'
 import {AiOutlineCode} from 'react-icons/ai'
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { useState } from 'react'
 
 import './nav.css'
@@ -18,12 +18,8 @@ function Nav() {
     <NavLink to='/' > <AiOutlineHome/></NavLink>
     <NavLink to='about'><AiOutlineUser/></NavLink>
     <NavLink to='experience'><BsCodeSlash/></NavLink>
+    <NavLink to='portfolio'><AiOutlineCode/></NavLink>
 
-      <a href="#"><AiOutlineCode/></a>
-
-      <a href="#"><AiOutlineUser/></a>
-      <a href="#"><BsCodeSlash/></a>
-      <a href="#"><AiOutlineCode/></a>
 
 
 

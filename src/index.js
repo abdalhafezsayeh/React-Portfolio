@@ -6,6 +6,7 @@ import ErorrPage from "./components/ErorrPage";
 import Header from "./components/header/Header";
 import RootLayOut from "./components/RootLayOut";
 import Experience from "./components/experience/Experience";
+import Portfolio from "./components/portfolio/Portfolio";
 
 // Import Styles And Boostrap 
 import "./index.css";
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
       { index: true, element: <Header /> },
       { path: "about", element: <About /> },
       { path: "experience", element: <Experience /> },
+      {path:"portfolio", element:<Portfolio />}
     ],
   },
 ]);

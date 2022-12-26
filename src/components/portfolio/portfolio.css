@@ -1,0 +1,46 @@
+
+.por {
+    margin-top: 3rem;
+}
+
+.por>p {
+    font-size: 13px;
+    margin: 0;
+    color: #EEE;
+}
+.por h3 {
+    color: var(--color-primary);
+}
+
+
+
+/* Start LayOut  */
+.boxPor {
+    background:linear-gradient(150deg, transparent, var(--color-bg-variant), transparent);
+    border-radius: 15px;
+}
+.box_image {
+    padding: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.box_image img {
+    border-radius: 15px;
+}
+
+.box_header {
+    
+}
+.box_header h4 {
+    text-transform: capitalize;
+}
+
+.box_buttons {
+    margin-top: 30px;
+    padding: 10px;
+    border-top: 1px solid var(--color-bg-variant);
+}
+
+.box_buttons .btn_pro {
+    margin: 10px;
+}
